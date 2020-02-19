@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Maestro.Pais] (
+    [PAI_ID]   INT           IDENTITY (1, 1) NOT NULL,
+    [PAI_NOM]  VARCHAR (150) NULL,
+    [PAI_COOR] VARCHAR (150) NULL,
+    [PAI_IMG]  VARCHAR (150) NULL,
+    [PAI_DESC] VARCHAR (250) NULL,
+    [EST]      INT           NULL,
+    CONSTRAINT [PK_Maestro.Pais] PRIMARY KEY CLUSTERED ([PAI_ID] ASC)
+);
+

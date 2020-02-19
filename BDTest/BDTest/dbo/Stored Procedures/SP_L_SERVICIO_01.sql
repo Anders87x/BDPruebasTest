@@ -1,0 +1,9 @@
+﻿
+
+CREATE PROCEDURE SP_L_SERVICIO_01
+AS
+BEGIN
+	SELECT * FROM [Maestro.Servicio]	
+	WHERE
+		EST=1
+END

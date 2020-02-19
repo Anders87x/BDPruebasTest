@@ -1,0 +1,8 @@
+﻿CREATE PROCEDURE [dbo].[SP_I_ROL_01]
+@ENTC_ID INT,
+@ROL_ID INT,
+@SED_ID INT
+AS
+BEGIN
+	INSERT INTO [Maestro.EntidadRol] values (@ENTC_ID,@ROL_ID,@SED_ID,1)
+END

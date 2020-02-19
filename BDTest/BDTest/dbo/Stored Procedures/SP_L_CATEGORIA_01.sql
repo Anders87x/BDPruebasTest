@@ -1,0 +1,8 @@
+﻿
+CREATE PROCEDURE SP_L_CATEGORIA_01
+AS
+BEGIN
+	SELECT * FROM [Maestro.Categoria] 
+	WHERE 
+		EST=1
+END
